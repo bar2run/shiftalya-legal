@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shiftalya privacy policy — English, Deutsch, Türkçe." />
+    <title>Shiftalya — Privacy policy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <h1>Shiftalya</h1>
+      <p class="tagline">Privacy policy · Version 1.0.0</p>
+    </header>
+    <main id="main">
+      <p class="meta"><a href="index.html">← Support home</a></p>
+
+      <nav class="lang-switcher" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true" lang="en">English</button>
+        <button type="button" data-lang="de" aria-pressed="false" lang="de">Deutsch</button>
+        <button type="button" data-lang="tr" aria-pressed="false" lang="tr">Türkçe</button>
+      </nav>
+
+      <!-- English -->
+      <article id="policy-en" class="policy-lang is-active" lang="en" aria-labelledby="title-en">
+        <h2 id="title-en">Privacy policy</h2>
+        <p><strong>Effective date:</strong> 5 November 2026</p>
+        <p>
+          This policy describes how the mobile app <strong>Shiftalya</strong> (“the app”, version 1.0.0) handles
+          information. The app is an offline-first shift calendar. We do not provide user accounts or a cloud service
+          that stores your roster in this version.
+        </p>
+
+        <h3>1. Who is responsible</h3>
+        <p>
+          The Shiftalya app is published by its developer. For privacy questions or requests, contact
+          <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a>. We do not list a postal address on
+          this page; if your local law requires additional contact details, email us and we will respond as required.
+        </p>
+
+        <h3>2. Summary</h3>
+        <ul>
+          <li>Your shifts, rotations, settings, and imported schedule data are stored <strong>locally</strong> on your device (SQLite).</li>
+          <li>We do not operate analytics, advertising, or in-app purchase systems in the current app version.</li>
+          <li>Our application code does not send your shift data to a developer-operated server.</li>
+          <li>PDF files you choose are read and parsed on the device only.</li>
+          <li>Optional reminders use local notifications after you grant device permission.</li>
+        </ul>
+
+        <h3>3. Information processed in the app</h3>
+        <p>Depending on how you use Shiftalya, the app may store on your device:</p>
+        <ul>
+          <li>Shift times, labels, break rules, colors, and related calendar data you enter or import.</li>
+          <li>Rotation patterns and shift types you configure.</li>
+          <li>App preferences (language, appearance, week start, time format, reminder settings, break policies).</li>
+          <li>Text extracted from schedule PDFs you select, used to preview and import shifts.</li>
+          <li>Metadata needed for scheduled reminders (e.g. reminder text and timing stored locally).</li>
+        </ul>
+        <p>
+          On first launch, the app may read your device language and clock preferences (via the operating system) to
+          suggest default language and 12/24-hour time format. This stays on the device as part of your settings.
+        </p>
+
+        <h3>4. What we do not do (current version)</h3>
+        <ul>
+          <li>No user accounts or sign-in.</li>
+          <li>No backend sync of your roster to us.</li>
+          <li>No third-party analytics or crash-reporting SDKs integrated for collecting your shift content.</li>
+          <li>No advertising networks.</li>
+          <li>No in-app purchases or subscriptions.</li>
+        </ul>
+
+        <h3>5. PDF import</h3>
+        <p>
+          When you import a schedule PDF, you pick a file through the system document picker. The app reads the file on
+          your device, extracts text locally, and shows a preview before you save. We do not upload PDFs to our servers
+          (we do not operate such servers for this feature).
+        </p>
+
+        <h3>6. Notifications</h3>
+        <p>
+          If you enable shift reminders, the app schedules <strong>local</strong> notifications on your device. The
+          operating system may ask for notification permission. You can turn reminders off in Settings or revoke
+          permission in system settings. Reminder wording is generated on the device.
+        </p>
+
+        <h3>7. Permissions</h3>
+        <ul>
+          <li><strong>Notifications</strong> (optional): to remind you before shifts, if you enable the feature.</li>
+          <li><strong>Document / file access</strong> (when you import): you choose a PDF; access is user-initiated.</li>
+        </ul>
+        <p>The app does not request location, camera, or microphone access for core features in the current version.</p>
+
+        <h3>8. Retention and deletion</h3>
+        <p>
+          Data remains on your device until you delete it or remove the app. You can erase shifts, rotations, types, and
+          related local data using <strong>Clear local data</strong> in Settings (this cannot be undone). Uninstalling
+          the app removes local app data from your device subject to OS behavior.
+        </p>
+
+        <h3>9. Third parties and platforms</h3>
+        <p>
+          Even though the app is offline-first, other parties may process limited technical information independently:
+        </p>
+        <ul>
+          <li>
+            <strong>Apple / Google</strong> (app stores, OS updates, device services) may collect data required to
+            distribute the app, process payments for the store itself, security, or diagnostics under their policies.
+          </li>
+          <li>
+            <strong>Device operating system</strong> (iOS, Android) manages permissions, notifications, and file access.
+          </li>
+          <li>
+            The app is built with <strong>Expo and React Native</strong> libraries. We have not added separate analytics
+            or advertising SDKs in our application source code; native modules may still perform system-level functions
+            (e.g. showing notifications). Store privacy forms should reflect both our practices and platform
+            requirements.
+          </li>
+        </ul>
+        <p>
+          Our reviewed application source (version 1.0.0) does not contain <code>fetch</code> or similar calls that
+          transmit your shift data to the developer. Network use may still occur for standard OS or store services
+          outside our direct control.
+        </p>
+
+        <h3>10. Your rights</h3>
+        <p>
+          Depending on your country, you may have rights to access, correct, delete, or restrict processing of personal
+          data. Because data is stored locally, you can delete it in the app or uninstall. Contact us at
+          <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a> for privacy questions; we cannot
+          remotely delete data from your device.
+        </p>
+
+        <h3>11. Children</h3>
+        <p>The app is a general productivity tool not directed at children under 13. We do not knowingly collect personal information from children through a developer-operated service.</p>
+
+        <h3>12. Changes</h3>
+        <p>
+          We may update this policy when the app changes. We will post the new version on this page and update the
+          effective date. Continued use after changes means you accept the updated policy.
+        </p>
+
+        <h3>13. Contact</h3>
+        <p>
+          Email:
+          <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a>
+        </p>
+      </article>
+
+      <!-- German -->
+      <article id="policy-de" class="policy-lang" lang="de" aria-labelledby="title-de" aria-hidden="true">
+        <h2 id="title-de">Datenschutzerklärung</h2>
+        <p><strong>Stand:</strong> 5. November 2026</p>
+        <p>
+          Diese Erklärung beschreibt, wie die mobile App <strong>Shiftalya</strong> („die App“, Version 1.0.0) mit
+          Informationen umgeht. Die App ist eine offline-first Schichtplanung. In dieser Version gibt es keine
+          Benutzerkonten und keinen Cloud-Dienst, der deinen Dienstplan bei uns speichert.
+        </p>
+
+        <h3>1. Verantwortlicher</h3>
+        <p>
+          Verantwortlich für die App ist der Entwickler von Shiftalya. Datenschutzanfragen:
+          <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a>. Eine Postadresse nennen wir hier
+          nicht; wenn dein lokales Recht weitere Angaben verlangt, schreib uns per E-Mail.
+        </p>
+
+        <h3>2. Kurzüberblick</h3>
+        <ul>
+          <li>Schichten, Rotationen, Einstellungen und importierte Planungsdaten werden <strong>lokal</strong> auf dem Gerät gespeichert (SQLite).</li>
+          <li>In der aktuellen Version betreiben wir keine Analyse-, Werbe- oder In-App-Kauf-Systeme.</li>
+          <li>Unser Anwendungscode überträgt deine Schichtdaten nicht an einen vom Entwickler betriebenen Server.</li>
+          <li>PDFs, die du auswählst, werden nur auf dem Gerät gelesen und verarbeitet.</li>
+          <li>Optionale Erinnerungen sind lokale Benachrichtigungen nach deiner Gerätefreigabe.</li>
+        </ul>
+
+        <h3>3. In der App verarbeitete Informationen</h3>
+        <p>Je nach Nutzung kann die App auf dem Gerät speichern:</p>
+        <ul>
+          <li>Schichtzeiten, Bezeichnungen, Pausenregeln, Farben und Kalenderdaten, die du eingibst oder importierst.</li>
+          <li>Rotationsmuster und Schichttypen.</li>
+          <li>App-Einstellungen (Sprache, Darstellung, Wochenbeginn, Zeitformat, Erinnerungen, Pausenregeln).</li>
+          <li>Aus gewählten PDF-Dienstplänen extrahierter Text für Vorschau und Import.</li>
+          <li>Lokal abgelegte Metadaten für geplante Erinnerungen.</li>
+        </ul>
+        <p>
+          Beim ersten Start kann die App Sprache und Uhrzeitformat des Geräts (über das Betriebssystem) auslesen, um
+          Standardwerte vorzuschlagen. Das bleibt in deinen lokalen Einstellungen.
+        </p>
+
+        <h3>4. Was wir nicht tun (aktuelle Version)</h3>
+        <ul>
+          <li>Keine Benutzerkonten oder Anmeldung.</li>
+          <li>Keine Synchronisation deines Dienstplans mit uns.</li>
+          <li>Keine integrierten Analyse- oder Crash-Reporting-SDKs für deine Schichtinhalte.</li>
+          <li>Keine Werbenetzwerke.</li>
+          <li>Keine In-App-Käufe oder Abos.</li>
+        </ul>
+
+        <h3>5. PDF-Import</h3>
+        <p>
+          Beim PDF-Import wählst du eine Datei über die Systemauswahl. Die App liest die Datei auf dem Gerät, extrahiert
+          Text lokal und zeigt eine Vorschau, bevor du speicherst. Wir laden PDFs nicht auf unsere Server hoch (solche
+          Server betreiben wir für diese Funktion nicht).
+        </p>
+
+        <h3>6. Benachrichtigungen</h3>
+        <p>
+          Wenn du Schicht-Erinnerungen aktivierst, plant die App <strong>lokale</strong> Benachrichtigungen. Das
+          Betriebssystem kann um Erlaubnis bitten. Du kannst Erinnerungen in den Einstellungen abschalten oder die
+          Berechtigung in den Systemeinstellungen entziehen.
+        </p>
+
+        <h3>7. Berechtigungen</h3>
+        <ul>
+          <li><strong>Benachrichtigungen</strong> (optional): Erinnerungen vor Schichten, wenn aktiviert.</li>
+          <li><strong>Dokument-/Dateizugriff</strong> (beim Import): von dir gewähltes PDF; Zugriff nur auf deine Aktion.</li>
+        </ul>
+        <p>Für Kernfunktionen verlangt die App in der aktuellen Version keinen Standort-, Kamera- oder Mikrofonzugriff.</p>
+
+        <h3>8. Aufbewahrung und Löschung</h3>
+        <p>
+          Daten bleiben auf dem Gerät, bis du sie löschst oder die App entfernst. Mit <strong>Lokale Daten löschen</strong>
+          in den Einstellungen kannst du Schichten, Rotationen, Typen und zugehörige lokale Daten unwiderruflich
+          entfernen. Deinstallation entfernt App-Daten je nach Betriebssystem.
+        </p>
+
+        <h3>9. Dritte und Plattformen</h3>
+        <p>Auch bei offline-first Nutzung können andere Stellen begrenzte technische Informationen verarbeiten:</p>
+        <ul>
+          <li><strong>Apple / Google</strong> (Stores, OS) gemäß deren Richtlinien.</li>
+          <li><strong>Betriebssystem</strong> verwaltet Berechtigungen, Benachrichtigungen und Dateizugriff.</li>
+          <li>
+            Die App nutzt <strong>Expo- und React-Native</strong>-Bibliotheken. In unserem Quellcode haben wir keine
+            separaten Analyse- oder Werbe-SDKs eingebunden; native Module können dennoch Systemfunktionen ausführen.
+          </li>
+        </ul>
+        <p>
+          Geprüfter Anwendungscode (Version 1.0.0) enthält keine <code>fetch</code>-Aufrufe, die Schichtdaten an uns
+          senden. Netzwerkaktivität kann trotzdem für OS- oder Store-Dienste außerhalb unserer direkten Kontrolle
+          auftreten.
+        </p>
+
+        <h3>10. Deine Rechte</h3>
+        <p>
+          Je nach Land hast du Rechte auf Auskunft, Berichtigung, Löschung oder Einschränkung. Da Daten lokal liegen,
+          kannst du sie in der App löschen oder deinstallieren. Kontakt:
+          <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a>.
+        </p>
+
+        <h3>11. Kinder</h3>
+        <p>Die App richtet sich nicht gezielt an Kinder unter 13 Jahren.</p>
+
+        <h3>12. Änderungen</h3>
+        <p>Bei App-Änderungen aktualisieren wir diese Seite und das Datum. Nutzung nach dem Update gilt als Zustimmung.</p>
+
+        <h3>13. Kontakt</h3>
+        <p>E-Mail: <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a></p>
+      </article>
+
+      <!-- Turkish -->
+      <article id="policy-tr" class="policy-lang" lang="tr" aria-labelledby="title-tr" aria-hidden="true">
+        <h2 id="title-tr">Gizlilik politikası</h2>
+        <p><strong>Yürürlük tarihi:</strong> 5 Kasım 2026</p>
+        <p>
+          Bu metin, <strong>Shiftalya</strong> mobil uygulamasının (“uygulama”, sürüm 1.0.0) bilgileri nasıl işlediğini
+          açıklar. Uygulama çevrimdışı öncelikli bir vardiya takvimidir. Bu sürümde kullanıcı hesabı veya vardiya
+          verinizi bizde saklayan bir bulut hizmeti yoktur.
+        </p>
+
+        <h3>1. Sorumlu taraf</h3>
+        <p>
+          Shiftalya uygulamasından geliştirici sorumludur. Gizlilik soruları:
+          <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a>. Bu sayfada posta adresi
+          listelenmemiştir; yerel kanun ek bilgi gerektiriyorsa e-posta ile ulaşın.
+        </p>
+
+        <h3>2. Özet</h3>
+        <ul>
+          <li>Vardiyalar, rotasyonlar, ayarlar ve içe aktarılan plan verileri cihazda <strong>yerel</strong> olarak saklanır (SQLite).</li>
+          <li>Mevcut sürümde analiz, reklam veya uygulama içi satın alma sistemleri işletmiyoruz.</li>
+          <li>Uygulama kodumuz vardiya verinizi geliştirici sunucusuna göndermez.</li>
+          <li>Seçtiğiniz PDF’ler yalnızca cihazda okunur ve işlenir.</li>
+          <li>İsteğe bağlı hatırlatmalar, izin vermenizden sonra yerel bildirimlerdir.</li>
+        </ul>
+
+        <h3>3. Uygulamada işlenen bilgiler</h3>
+        <p>Kullanımınıza bağlı olarak cihazda şunlar saklanabilir:</p>
+        <ul>
+          <li>Girdiğiniz veya içe aktardığınız vardiya saatleri, etiketler, mola kuralları, renkler ve takvim verileri.</li>
+          <li>Rotasyon desenleri ve vardiya türleri.</li>
+          <li>Uygulama tercihleri (dil, görünüm, hafta başı, saat biçimi, hatırlatmalar, mola kuralları).</li>
+          <li>Seçilen PDF programlarından çıkarılan metin (önizleme ve içe aktarma).</li>
+          <li>Planlanmış hatırlatmalar için yerel meta veriler.</li>
+        </ul>
+        <p>
+          İlk açılışta uygulama, varsayılan dil ve 12/24 saat biçimi önermek için işletim sistemi üzerinden cihaz dilini
+          ve saat tercihlerini okuyabilir. Bu, yerel ayarlarınızın parçası olarak kalır.
+        </p>
+
+        <h3>4. Yapmadıklarımız (mevcut sürüm)</h3>
+        <ul>
+          <li>Kullanıcı hesabı veya oturum açma yok.</li>
+          <li>Vardiya verinizin bizimle senkronizasyonu yok.</li>
+          <li>Vardiya içeriğinizi toplayan ayrı analiz veya çökme raporlama SDK’ları yok.</li>
+          <li>Reklam ağları yok.</li>
+          <li>Uygulama içi satın alma veya abonelik yok.</li>
+        </ul>
+
+        <h3>5. PDF içe aktarma</h3>
+        <p>
+          PDF içe aktarırken sistem dosya seçici ile bir dosya seçersiniz. Uygulama dosyayı cihazda okur, metni yerel
+          olarak çıkarır ve kaydetmeden önce önizleme gösterir. PDF’leri sunucularımıza yüklemez (böyle bir sunucu
+          işletmiyoruz).
+        </p>
+
+        <h3>6. Bildirimler</h3>
+        <p>
+          Vardiya hatırlatmalarını açarsanız uygulama cihazda <strong>yerel</strong> bildirimler planlar. İşletim sistemi
+          bildirim izni isteyebilir. Ayarlardan kapatabilir veya sistem iznini geri alabilirsiniz.
+        </p>
+
+        <h3>7. İzinler</h3>
+        <ul>
+          <li><strong>Bildirimler</strong> (isteğe bağlı): açıksa vardiya öncesi hatırlatmalar.</li>
+          <li><strong>Belge/dosya erişimi</strong> (içe aktarmada): sizin seçtiğiniz PDF; erişim kullanıcı tetiklemelidir.</li>
+        </ul>
+        <p>Mevcut sürümde temel özellikler için konum, kamera veya mikrofon izni istenmez.</p>
+
+        <h3>8. Saklama ve silme</h3>
+        <p>
+          Veriler, siz silene veya uygulamayı kaldırana kadar cihazda kalır. Ayarlardaki <strong>Yerel verileri temizle</strong>
+          ile vardiyalar, rotasyonlar, türler ve ilgili yerel veriler geri alınamaz şekilde silinebilir. Kaldırma,
+          işletim sistemine bağlı olarak uygulama verisini siler.
+        </p>
+
+        <h3>9. Üçüncü taraflar ve platformlar</h3>
+        <p>Çevrimdışı öncelikli olsa bile diğer taraflar sınırlı teknik bilgi işleyebilir:</p>
+        <ul>
+          <li><strong>Apple / Google</strong> (mağazalar, işletim sistemi) kendi politikalarına göre.</li>
+          <li><strong>İşletim sistemi</strong> izinleri, bildirimleri ve dosya erişimini yönetir.</li>
+          <li>
+            Uygulama <strong>Expo ve React Native</strong> kütüphaneleri kullanır. Kaynak kodumuza ayrı analiz veya reklam
+            SDK’sı eklemedik; yerel modüller yine de sistem işlevleri çalıştırabilir.
+          </li>
+        </ul>
+        <p>
+          İncelenen uygulama kaynağı (1.0.0) vardiya verinizi bize gönderen <code>fetch</code> çağrıları içermez. Yine
+          de işletim sistemi veya mağaza hizmetleri için ağ kullanımı olabilir.
+        </p>
+
+        <h3>10. Haklarınız</h3>
+        <p>
+          Ülkenize göre erişim, düzeltme, silme veya işlemeyi kısıtlama haklarınız olabilir. Veriler cihazda olduğu
+          için uygulama içinden silebilir veya kaldırabilirsiniz:
+          <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a>.
+        </p>
+
+        <h3>11. Çocuklar</h3>
+        <p>Uygulama 13 yaş altına yönelik değildir.</p>
+
+        <h3>12. Değişiklikler</h3>
+        <p>Uygulama değişince bu sayfayı ve tarihi güncelleriz. Sonrasında kullanım güncellenmiş politikayı kabul sayılır.</p>
+
+        <h3>13. İletişim</h3>
+        <p>E-posta: <a href="mailto:contact.bar2run@gmail.com">contact.bar2run@gmail.com</a></p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <p>
+        <a href="index.html">Support</a>
+        ·
+        <a href="mailto:contact.bar2run@gmail.com" aria-label="Email contact.bar2run@gmail.com">Contact</a>
+      </p>
+    </footer>
+    <script>
+      (function () {
+        var buttons = document.querySelectorAll('.lang-switcher button');
+        var panels = {
+          en: document.getElementById('policy-en'),
+          de: document.getElementById('policy-de'),
+          tr: document.getElementById('policy-tr'),
+        };
+        function setLang(code) {
+          Object.keys(panels).forEach(function (key) {
+            var active = key === code;
+            panels[key].classList.toggle('is-active', active);
+            panels[key].setAttribute('aria-hidden', active ? 'false' : 'true');
+          });
+          buttons.forEach(function (btn) {
+            var on = btn.getAttribute('data-lang') === code;
+            btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+          });
+          document.documentElement.lang = code;
+        }
+        buttons.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            setLang(btn.getAttribute('data-lang'));
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
